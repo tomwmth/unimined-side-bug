@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+showAsResourcePack = false
+
+[[mods]]
+modId = "examplemod"
+version = "1.0.0"
+displayName = "Example Mod"
+authors = "tomwmth"
+description = "This is an example mod."
+
+[[dependencies.examplemod]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.examplemod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2]"
+ordering = "NONE"
+side = "CLIENT"
